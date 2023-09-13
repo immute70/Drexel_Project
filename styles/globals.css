@@ -2,26 +2,266 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'HalisR-Light';
+  src: url('../fonts/Ahmet Altun - HalisR-Light.otf');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'HalisR-Book';
+  src: url('../fonts/Ahmet Altun - HalisR-Book.otf');
+}
+
+@font-face {
+  font-family: 'HalisR-Medium';
+  src: url('../fonts/Ahmet Altun - HalisR-Medium.otf');
+}
+
+@font-face {
+  font-family: 'HalisR-Regular';
+  src: url('../fonts/Ahmet Altun - HalisR-Regular.otf');
+}
+
+@font-face {
+  font-family: 'HalisR-Bold';
+  src: url('../fonts/Ahmet Altun - HalisR-Bold.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'HalisR-Regular', sans-serif;
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.landSection {
+  padding: 50px 0;
+}
+
+header p{
+  font-family: 'HalisR-Book', sans-serif;
+  /*padding-right: 50px;*/
+  color: #2F2F38;
+  cursor: pointer;
+}
+
+.section-1 {
+  background-color: #F4F4F4;
+}
+
+.section-1 h1 {
+  font-family: 'HalisR-Light', sans-serif;
+  font-size: 36px;
+  color: #2F2F38;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+.section-1 span {
+  font-family: 'HalisR-Bold', sans-serif;
+  font-size: 36px;
+  color: #2F2F38;
+  line-height: 1.2;
+  padding-left: 18px;
+  letter-spacing: 3px;
+}
+
+.cherner-p {
+  color: rgba(47, 47, 56, 0.68);
+  font-family: HalisR-Light, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+}
+
+.p-view-now {
+  color: #2F2F38;
+  font-family: HalisR-Book, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.section-2-categories p {
+  color: #2F2F38;
+  font-family: HalisR-Regular,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+
+/* Section-2 */
+
+.publication-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 325px;
+  background-color: #F4F4F4;
+
+}
+
+.publication-img p {
+  color: rgba(47, 47, 56, 0.68) !important;
+}
+
+.publication-block p {
+  font-size: 15px;
+  color: #2F2F38;
+  font-family: HalisR-Regular, sans-serif;
+  font-style: normal;
+  /*font-weight: 400;*/
+  /*line-height: normal;*/
+  letter-spacing: 0.1rem;
+}
+
+/* Section-3 */
+
+.section-3 {
+  background-color: #F4F4F4;
+}
+
+.section-3 h1 {
+  font-family: HalisR-Bold, sans-serif;
+  color: #2F2F38;
+  font-size: 32px;
+  /*font-style: normal;*/
+  /*font-weight: 700;*/
+  letter-spacing: 3px;
+}
+
+.sec-3-text {
+  color: rgba(47, 47, 56, 0.70);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  padding-bottom: 18px;
+
+}
+
+.sec-3-img {
+  top: -80px;
+  z-index: 10;
+}
+
+
+/* Section-5 */
+
+.section-5 {
+  background-color: #F4F4F4;
+}
+
+.section-5 h1 {
+  color: #2F2F38;
+  font-size: 32px;
+  font-family: HalisR-Bold, sans-serif;
+  padding-bottom: 9px;
+}
+
+.section-5 p {
+  color: rgba(47, 47, 56, 0.70);
+  font-family: HalisR-Bold, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  padding-bottom: 50px;
+}
+
+.section-5 button {
+  background-color: #212121;
+  color: #F4F4F4;
+  font-family: HalisR-Bold, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+}
+
+.section-5 input {
+  background-color: #F4F4F4;
+  border: 1px solid #D9D9D9;
+}
+
+
+/* Footer */
+
+.footer {
+  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #D9D9D9;
+}
+
+.footer h6 {
+  color: #2F2F38;
+  font-family: HalisR-Regular, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  padding-bottom: 18px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: rgba(47, 47, 56, 0.50);
+  font-family: HalisR-Regular, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.footer p:last-child {
+  padding-bottom: 0;
+}
+
+.footer-below p {
+  color: rgba(47, 47, 56, 0.50);
+  font-family: HalisR-Regular, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.footer-below p:first-child {
+  color: #2F2F38;
+}
+
+.footer-below img {
+  padding-left: 11px;
+  cursor: pointer;
+}
+
+.footer-below img:first-child {
+  padding-left: 0;
 }

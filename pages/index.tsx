@@ -1,118 +1,229 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className='container py-9'>
+      <div className='section-1 flex items-center content-center justify-between p-24'>
+          <div>
+              <div className='pb-20'>
+                  <h1>CHERNER<span>ARMCHAIR</span></h1>
+                  <p className='cherner-p'>the 1958 moulded plywood armchair by Norman Chester</p>
+              </div>
+
+              <div >
+                  <p className='p-view-now'>VIEW NOW</p>
+                  <img src='/images/section-1/Line%201.svg'></img>
+              </div>
+          </div>
+          <div>
+              <img src='/images/section-1/sec1-chair.png'></img>
+          </div>
+      </div>
+
+      <div className='section-2 py-36'>
+          <div>
+              <div className='section-2-categories flex justify-between pb-10'>
+                  <div className='flex'>
+                      <div className='pr-12'>
+                          <p>FURNITURE</p>
+                      </div>
+                      <div className='pr-12'>
+                          <p>LIGHTING</p>
+                      </div>
+                      <div className='pr-12'>
+                          <p>SOFAS</p>
+                      </div>
+                      <div className='pr-12'>
+                          <p>LOUNGE CHAIR</p>
+                      </div>
+                      <div className='pr-12'>
+                          <p>ALL</p>
+                          <img src='/images/section-2/Line%202.svg'></img>
+                      </div>
+                  </div>
+                  <div className='flex'>
+                      <p>BACK</p>
+                      <img src='/images/section-2/Line%203.svg' className='px-3'></img>
+                      <p>HERE</p>
+                  </div>
+              </div>
+              <div className='flex justify-between'>
+                  <div className='publication-block'>
+                      <div className='publication-img relative'>
+                          <p className='absolute right-4 top-3'>HOT</p>
+                          <img src='/images/section-2/publication/sec2-img1%201.png'></img>
+                      </div>
+                      <div className='flex flex-col flex-wrap items-center'>
+                          <p className='pt-5'>FIXED DOWN SCONCE</p>
+                          <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                          <p className='pt-2'>159.99 $</p>
+                      </div>
+
+                  </div>
+                  <div className='publication-block'>
+                      <div className='publication-img relative'>
+                          <p className='absolute right-4 top-3'>SALE</p>
+                          <img src='/images/section-2/publication/sec2-img2%201.png'></img>
+                      </div>
+                      <div className='flex flex-col flex-wrap items-center'>
+                          <p className='pt-5'>CAST PENDANT</p>
+                          <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                          <p className='pt-2'>159.99 $</p>
+                      </div>
+
+                  </div>
+                  <div className='publication-block'>
+                      <div className='publication-img relative'>
+                          <p className='absolute right-4 top-3'></p>
+                          <img src='/images/section-2/publication/sec2-img3%201.png'></img>
+                      </div>
+                      <div className='flex flex-col flex-wrap items-center'>
+                          <p className='pt-5'>THE SWEEPER and FUNNEL</p>
+                          <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                          <p className='pt-2'>159.99 $</p>
+                      </div>
+
+                  </div>
+                  <div className='publication-block'>
+                      <div className='publication-img relative'>
+                          <p className='absolute right-4 top-3'>HOT</p>
+                          <img src='/images/section-2/publication/sec2-img4%203.png'></img>
+                      </div>
+                      <div className='flex flex-col flex-wrap items-center'>
+                          <p className='pt-5'>SMART TEAPOT</p>
+                          <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                          <p className='pt-2'>159.99 $</p>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div className='container py-20'>
+          <div className='section-3 px-28 py-16 relative'>
+              <div >
+                  <h1>DREXEL</h1>
+                  <p className='sec-3-text'>PETS SLEEPING BAG</p>
+                  <div>
+                      <p className='p-view-now'>VIEW NOW</p>
+                      <img src='/images/section-1/Line%201.svg'></img>
+                  </div>
+              </div>
+              <div className='sec-3-img flex absolute right-24 items-end'>
+                  <div>
+                      <img src='/images/section-3/123%201.png' className='pr-20'></img>
+                  </div>
+                  <div>
+                      <img src='/images/section-3/dog%201.png'></img>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <div className='section-4 py-36'>
+            <div>
+                <div className='section-2-categories flex justify-between pb-10'>
+                    <div className='flex'>
+                        <div className='pr-12'>
+                            <p>NEW ARRIVAL</p>
+                        </div>
+                        <div className='pr-12'>
+                            <p>FEATURED</p>
+                            <img src='/images/section-4/Line%202.svg'></img>
+                        </div>
+                        <div className='pr-12'>
+                            <p>BESTSELLER</p>
+                        </div>
+                        <div className='pr-12'>
+                            <p>HOT</p>
+                        </div>
+                    </div>
+                    <div className='flex'>
+                        <p>BACK</p>
+                        <img src='/images/section-2/Line%203.svg' className='px-3'></img>
+                        <p>HERE</p>
+                    </div>
+                </div>
+                <div className='flex justify-between'>
+                    <div className='publication-block'>
+                        <div className='publication-img relative'>
+                            <p className='absolute right-4 top-3'>HOT</p>
+                            <img src='/images/section-4/sec4-img1%201.png'></img>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-center'>
+                            <p className='pt-5'>EVA SOLO HERB POT</p>
+                            <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                            <p className='pt-2'>159.99 $</p>
+                        </div>
+
+                    </div>
+                    <div className='publication-block'>
+                        <div className='publication-img relative'>
+                            <p className='absolute right-4 top-3'>SALE</p>
+                            <img src='/images/section-4/sec4-img2%201.png'></img>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-center'>
+                            <p className='pt-5'>NELSON SUNBRUST CLOCK</p>
+                            <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                            <p className='pt-2'>259.99 $</p>
+                        </div>
+
+                    </div>
+                    <div className='publication-block'>
+                        <div className='publication-img relative'>
+                            <p className='absolute right-4 top-3'></p>
+                            <img src='/images/section-4/sec2-img4%203.png'></img>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-center'>
+                            <p className='pt-5'>SMART TEAPOT</p>
+                            <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                            <p className='pt-2'>239.99 $</p>
+                        </div>
+
+                    </div>
+                    <div className='publication-block'>
+                        <div className='publication-img relative'>
+                            <p className='absolute right-4 top-3'>HOT</p>
+                            <img src='/images/section-4/sec4-img3%201.png'></img>
+                        </div>
+                        <div className='flex flex-col flex-wrap items-center'>
+                            <p className='pt-5'>NELSON SUNBRUST CLOCK</p>
+                            <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
+                            <p className='pt-2'>159.99 $</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className='container landSection'>
+            <div className='section-5 px-64 py-40 flex flex-col items-center'>
+                <div className='flex flex-col items-center'>
+                    <h1>KEEP UPDATED</h1>
+                    <p>SIGN UP FOR OUR NEWLETTER TO RECEIVE ON EXLUSIVE OFFER</p>
+                </div>
+                <div>
+                    <div className='flex flex-row items-center'>
+                        <input type='text' placeholder='Enter your email' className='py-4 pl-5 pr-80'></input>
+                        <button className='py-5 px-14'>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <div className='container py-36'>
+            <div className='flex flex-row justify-between'>
+                <img src='/images/section-6/sticker1%201.svg'></img>
+                <img src='/images/section-6/sticker2%201.svg'></img>
+                <img src='/images/section-6/sticker3%201.svg'></img>
+                <img src='/images/section-6/sticker4%201.svg'></img>
+                <img src='/images/section-6/sticker5%201.svg'></img>
+                <img src='/images/section-6/sticker6%201.svg'></img>
+            </div>
+        </div>
     </main>
   )
 }
