@@ -22,20 +22,20 @@ export default function Header() {
 
                 <div className='header-top flex justify-between items-center py-5'>
                     <img src='/images/header/heart-mob.svg' className='cursor-pointer'></img>
-                    <img src='/images/header/cart-mob.svg' className='pl-4 cursor-pointer'></img>
-                    <img src='/images/header/search-mob.svg' className='pl-4 cursor-pointer'></img>
+                    <img src='/images/header/cart-mob.svg' className='pl-1 cursor-pointer'></img>
+                    <img src='/images/header/search-mob.svg' className='pl-1 cursor-pointer'></img>
                 </div>
 
                 <div className='pt-14 pb-32'>
-                    <div className='flex pr-12'>
+                    <div className='flex justify-between pb-6'>
                         <Link href='#'><p>Home</p></Link>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
-                    <div className='flex pr-12'>
+                    <div className='flex justify-between pb-6'>
                         <Link href='#'><p>Feature</p></Link>
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
-                    <div className='pr-12'>
+                    <div className='pb-6'>
                         <Link href='#'><p>Store</p></Link>
                     </div>
                     <div>
@@ -43,21 +43,21 @@ export default function Header() {
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <p className='pr-10 pl-44 cursor-auto'><Link href={'#'}>LOGIN</Link></p>
+                <div className='header-under-mid flex py-5'>
+                    <div >
+                        <p className='pr-5 cursor-auto'><Link href={'#'}>LOGIN</Link></p>
                     </div>
-                    <div>
-                        <p className='pr-10 pl-44 cursor-auto'><Link href={'#'}>EN</Link></p>
+                    <div className='flex pr-5'>
+                        <p className=' cursor-auto'><Link href={'#'}>EN</Link></p>
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
-                    <div>
-                        <p className='pr-10 pl-44 cursor-auto'><Link href={'#'}>USD</Link></p>
+                    <div className='flex '>
+                        <p className=' cursor-auto'><Link href={'#'}>USD</Link></p>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
                 </div>
 
-                <div>
+                <div className='flex justify-between pt-9'>
                     <img src='/images/header/icons8-twitter%201.svg'></img>
                     <img src='/images/header/icons8-instagram%201.svg'></img>
                     <img src='/images/header/icons8-threads%201.svg'></img>
