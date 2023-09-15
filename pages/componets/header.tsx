@@ -10,7 +10,7 @@ export default function Header() {
     return (
       <header className='container '>
 
-        <div className='lg:flex lg:justify-between  lg:items-center w-full hidden lg:fixed lg:z-20 relative'>
+        <div className='lg:flex lg:justify-between  lg:items-center w-full hidden lg:fixed lg:z-20 relative bg-white'>
             <div className='img-mobile lg:block bg-black hidden w-fit'>
                 <img src='/images/header/DREXEL_MOBILE.svg'></img>
             </div>
@@ -26,7 +26,7 @@ export default function Header() {
                     <img src='/images/header/search-mob.svg' className='pl-4 cursor-pointer'></img>
                 </div>
 
-                <div className='pt-14 pb-80'>
+                <div className='pt-14 pb-32'>
                     <div className='flex pr-12'>
                         <Link href='#'><p>Home</p></Link>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
