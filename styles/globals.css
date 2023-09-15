@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
   font-family: 'HalisR-Light';
   src: url('../fonts/Ahmet Altun - HalisR-Light.otf');
@@ -264,4 +266,31 @@ header p{
 
 .footer-below img:first-child {
   padding-left: 0;
+}
+
+
+
+
+/* Adaptive */
+
+@media only screen and (max-width: 1024px) {
+  .img-mobile {
+    background-color: #222222;
+    padding: 15px 40px;
+  }
+
+  .link-header {
+    background-color: #222222;
+  }
+
+  .link-header p {
+    color: #A9A9A9;
+  }
+
+  .header-top {
+    border-bottom: rgba(169, 169, 169, 0.30) 1px solid;
+    border-top: rgba(169, 169, 169, 0.30) 1px solid;
+    margin-top: 15px;
+  }
+
 }

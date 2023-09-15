@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='container py-9'>
-      <div className='section-1 flex items-center content-center justify-between p-24'>
+      <div className='section-1 flex items-center content-center justify-between p-24 lg:my-3'>
           <div>
               <div className='pb-20'>
                   <h1>CHERNER<span>ARMCHAIR</span></h1>
