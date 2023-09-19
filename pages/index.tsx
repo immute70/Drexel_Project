@@ -54,79 +54,89 @@ export default function Home() {
           </div>
       </div>
 
-      <div className='section-2 py-36'>
+      <div className='section-2 py-36 lg:px-7 lg:py-20'>
           <div>
-              <div className='section-2-categories flex justify-between pb-10'>
-                  <div className='flex'>
-                      <div className='pr-12'>
+              <div className='
+              section-2-categories
+              flex
+              justify-between
+              pb-10
+
+              '>
+                  <div className='flex lg:flex-wrap'>
+                      <div className='pr-12 lg:pr-3'>
                           <p>FURNITURE</p>
                       </div>
-                      <div className='pr-12'>
+                      <div className='pr-12 lg:pr-3'>
                           <p>LIGHTING</p>
                       </div>
-                      <div className='pr-12'>
+                      <div className='pr-12 lg:pr-3'>
                           <p>SOFAS</p>
                       </div>
-                      <div className='pr-12'>
+                      <div className='pr-12 lg:pr-2.5'>
                           <p>LOUNGE CHAIR</p>
                       </div>
-                      <div className='pr-12'>
-                          <p>ALL</p>
-                          <img src='/images/section-2/Line%202.svg'></img>
+                      <div className='pr-12 lg:pr-0'>
+                          <p className='border-b-2 border-black'>ALL</p>
+                          {/*<img src='/images/section-2/Line%202.svg'></img>*/}
                       </div>
                   </div>
-                  <div className='flex'>
+                  <div className='flex lg:hidden'>
                       <p>BACK</p>
                       <img src='/images/section-2/Line%203.svg' className='px-3'></img>
                       <p>HERE</p>
                   </div>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between lg:flex-wrap'>
                   <div className='publication-block'>
                       <div className='publication-img relative'>
                           <p className='absolute right-4 top-3'>HOT</p>
-                          <img src='/images/section-2/publication/sec2-img1%201.png'></img>
+                          <img src='/images/section-2/publication/sec2-img1%201.png' className='lg:hidden'></img>
+                          <img src='/images/section-2/publication/publication-mob/sec2-img1-mob.png' className='mob-screen-img lg:block'></img>
                       </div>
                       <div className='flex flex-col flex-wrap items-center'>
                           <p className='pt-5'>FIXED DOWN SCONCE</p>
                           <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                          <p className='pt-2'>159.99 $</p>
+                          <p className='pt-2 lg:pb-5'>159.99 $</p>
                       </div>
 
                   </div>
                   <div className='publication-block'>
                       <div className='publication-img relative'>
                           <p className='absolute right-4 top-3'>SALE</p>
-                          <img src='/images/section-2/publication/sec2-img2%201.png'></img>
+                          <img src='/images/section-2/publication/sec2-img2%201.png' className='lg:hidden'></img>
+                          <img src='/images/section-2/publication/publication-mob/sec2-img2-mob.png' className='mob-screen-img lg:block'></img>
                       </div>
                       <div className='flex flex-col flex-wrap items-center'>
                           <p className='pt-5'>CAST PENDANT</p>
                           <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                          <p className='pt-2'>159.99 $</p>
+                          <p className='pt-2 lg:pb-5'>159.99 $</p>
                       </div>
 
                   </div>
                   <div className='publication-block'>
                       <div className='publication-img relative'>
                           <p className='absolute right-4 top-3'></p>
-                          <img src='/images/section-2/publication/sec2-img3%201.png'></img>
+                          <img src='/images/section-2/publication/sec2-img3%201.png' className='lg:hidden'></img>
+                          <img src='/images/section-2/publication/publication-mob/sec2-img3-mob.png' className='mob-screen-img lg:block'></img>
                       </div>
                       <div className='flex flex-col flex-wrap items-center'>
                           <p className='pt-5'>THE SWEEPER and FUNNEL</p>
                           <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                          <p className='pt-2'>159.99 $</p>
+                          <p className='pt-2 lg:pb-5'>159.99 $</p>
                       </div>
 
                   </div>
                   <div className='publication-block'>
                       <div className='publication-img relative'>
                           <p className='absolute right-4 top-3'>HOT</p>
-                          <img src='/images/section-2/publication/sec2-img4%203.png'></img>
+                          <img src='/images/section-2/publication/sec2-img4%203.png' className='lg:hidden'></img>
+                          <img src='/images/section-2/publication/publication-mob/sec2-img4-mob.png' className='mob-screen-img lg:block'></img>
                       </div>
                       <div className='flex flex-col flex-wrap items-center'>
                           <p className='pt-5'>SMART TEAPOT</p>
                           <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                          <p className='pt-2'>159.99 $</p>
+                          <p className='pt-2 lg:pb-5'>159.99 $</p>
                       </div>
 
                   </div>

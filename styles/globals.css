@@ -140,6 +140,10 @@ header p{
 
 }
 
+.mob-screen-img {
+  display: none;
+}
+
 .publication-img p {
   color: rgba(47, 47, 56, 0.68) !important;
 }
@@ -329,6 +333,24 @@ header p{
     line-height: 1.2;
     padding-left: 18px;
     letter-spacing: 2.08px;
+  }
+
+  /* section-2 */
+
+  .section-2-categories p {
+    font-size: 12px;
+    letter-spacing: 0.96px;
+  }
+
+  .publication-img {
+    width: 153px;
+    height: 182px;
+  }
+
+  .publication-block p {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+
   }
 
 }
