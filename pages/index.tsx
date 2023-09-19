@@ -64,19 +64,19 @@ export default function Home() {
 
               '>
                   <div className='flex lg:flex-wrap'>
-                      <div className='pr-12 lg:pr-3'>
+                      <div className='mr-12 lg:mr-3'>
                           <p>FURNITURE</p>
                       </div>
-                      <div className='pr-12 lg:pr-3'>
+                      <div className='mr-12 lg:mr-3'>
                           <p>LIGHTING</p>
                       </div>
-                      <div className='pr-12 lg:pr-3'>
+                      <div className='mr-12 lg:mr-3'>
                           <p>SOFAS</p>
                       </div>
-                      <div className='pr-12 lg:pr-2.5'>
+                      <div className='mr-12 lg:mr-2.5'>
                           <p>LOUNGE CHAIR</p>
                       </div>
-                      <div className='pr-12 lg:pr-0'>
+                      <div className='mr-12 lg:mr-0'>
                           <p className='border-b-2 border-gray-400'>ALL</p>
                           {/*<img src='/images/section-2/Line%202.svg'></img>*/}
                       </div>
@@ -178,76 +178,85 @@ export default function Home() {
           </div>
       </div>
 
-        <div className='section-4 py-36'>
+        <div className='section-4 py-36 lg:px-7 lg:py-20'>
             <div>
-                <div className='section-2-categories flex justify-between pb-10'>
-                    <div className='flex'>
-                        <div className='pr-12'>
+                <div className='
+              section-2-categories
+              flex
+              justify-between
+              pb-10
+
+              '>
+                    <div className='flex lg:flex-wrap'>
+                        <div className='mr-12 lg:mr-3'>
                             <p>NEW ARRIVAL</p>
                         </div>
-                        <div className='pr-12'>
+                        <div className='mr-12 lg:mr-3 border-b-2 border-gray-400 w-fit'>
                             <p>FEATURED</p>
-                            <img src='/images/section-4/Line%202.svg'></img>
                         </div>
-                        <div className='pr-12'>
+                        <div className='mr-12 lg:mr-3'>
                             <p>BESTSELLER</p>
                         </div>
-                        <div className='pr-12'>
+                        <div className='mr-12 lg:mr-2.5'>
                             <p>HOT</p>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex lg:hidden'>
                         <p>BACK</p>
                         <img src='/images/section-2/Line%203.svg' className='px-3'></img>
                         <p>HERE</p>
                     </div>
                 </div>
-                <div className='flex justify-between'>
+                <div className='flex justify-between lg:flex-wrap'>
                     <div className='publication-block'>
                         <div className='publication-img relative'>
                             <p className='absolute right-4 top-3'>HOT</p>
-                            <img src='/images/section-4/sec4-img1%201.png'></img>
+                            <img src='/images/section-4/sec4-img1%201.png' className='lg:hidden'></img>
+                            <img src='/images/section-4/section-4-mob/sec4-img1-mob.png' className='mob-screen-img lg:block'></img>
                         </div>
                         <div className='flex flex-col flex-wrap items-center'>
                             <p className='pt-5'>EVA SOLO HERB POT</p>
                             <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                            <p className='pt-2'>159.99 $</p>
+                            <p className='pt-2 lg:pb-5'>159.99 $</p>
                         </div>
 
                     </div>
                     <div className='publication-block'>
                         <div className='publication-img relative'>
                             <p className='absolute right-4 top-3'>SALE</p>
-                            <img src='/images/section-4/sec4-img2%201.png'></img>
+                            <img src='/images/section-4/sec4-img2%201.png' className='lg:hidden'></img>
+                            <img src='/images/section-4/section-4-mob/sec4-img2-mob.png' className='mob-screen-img lg:block'></img>
                         </div>
                         <div className='flex flex-col flex-wrap items-center'>
                             <p className='pt-5'>NELSON SUNBRUST CLOCK</p>
                             <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                            <p className='pt-2'>259.99 $</p>
+                            <p className='pt-2 lg:pb-5'>259.99 $</p>
                         </div>
 
                     </div>
                     <div className='publication-block'>
                         <div className='publication-img relative'>
                             <p className='absolute right-4 top-3'></p>
-                            <img src='/images/section-4/sec2-img4%203.png'></img>
+                            <img src='/images/section-4/sec2-img4%203.png' className='lg:hidden'></img>
+                            <img src='/images/section-4/section-4-mob/sec2-img4-mob.png' className='mob-screen-img lg:block'></img>
                         </div>
                         <div className='flex flex-col flex-wrap items-center'>
                             <p className='pt-5'>SMART TEAPOT</p>
                             <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                            <p className='pt-2'>239.99 $</p>
+                            <p className='pt-2 lg:pb-5'>239.99 $</p>
                         </div>
 
                     </div>
                     <div className='publication-block'>
                         <div className='publication-img relative'>
                             <p className='absolute right-4 top-3'>HOT</p>
-                            <img src='/images/section-4/sec4-img3%201.png'></img>
+                            <img src='/images/section-4/sec4-img3%201.png' className='lg:hidden'></img>
+                            <img src='/images/section-4/section-4-mob/sec4-img3-mob.png' className='mob-screen-img lg:block'></img>
                         </div>
                         <div className='flex flex-col flex-wrap items-center'>
                             <p className='pt-5'>NELSON SUNBRUST CLOCK</p>
                             <img src='/images/section-2/publication/Stars-1.svg' className='pt-2'></img>
-                            <p className='pt-2'>159.99 $</p>
+                            <p className='pt-2 lg:pb-5'>159.99 $</p>
                         </div>
 
                     </div>
