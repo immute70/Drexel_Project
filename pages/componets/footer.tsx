@@ -3,15 +3,15 @@
 export default function Footer() {
     return (
         <footer className='container pt-9 lg:px-7'>
-            <div className='footer flex flex-row py-28 lg:flex-wrap lg:justify-around lg:px-11'>
-                <div className='pr-56 lg:pr-0 lg:pb-14 lg:basis-2/6'>
+            <div className='footer flex flex-row py-28 lg:flex-wrap lg:justify-between lg:px-7'>
+                <div className='pr-56 lg:pr-0 lg:pb-14 lg:basis-5/12'>
                     <h6>ABOUT</h6>
                     <p>News & stories</p>
                     <p>History</p>
                     <p>Our studio</p>
                     <p>Showcase</p>
                 </div>
-                <div className='pr-56 lg:pr-0 lg:basis-2/6'>
+                <div className='pr-56 lg:pr-0 lg:basis-5/12'>
                     <h6>CUSTOMER SERVICE</h6>
                     <p>Contact us</p>
                     <p>Trade service</p>
@@ -19,13 +19,13 @@ export default function Footer() {
                     <p>Delivery/Return</p>
                     <p>FAQS</p>
                 </div>
-                <div className='pr-56 lg:pr-0 lg:basis-2/6'>
+                <div className='pr-56 lg:pr-0 lg:basis-5/12'>
                     <h6>FURNITURE</h6>
                     <p>Tables</p>
                     <p>Chairs</p>
                     <p>Storage</p>
                 </div>
-                <div className='lg:basis-2/6'>
+                <div className='lg:basis-5/12'>
                     <h6>ACCESSORIES</h6>
                     <p>Fragrance</p>
                     <p>Sunglasses</p>
