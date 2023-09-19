@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
         <footer className='container pt-9 lg:px-7'>
-            <div className='footer flex flex-row py-28 lg:flex-wrap lg:justify-between lg:px-11'>
+            <div className='footer flex flex-row py-28 lg:flex-wrap lg:justify-around lg:px-11'>
                 <div className='pr-56 lg:pr-0 lg:pb-14 lg:basis-2/6'>
                     <h6>ABOUT</h6>
                     <p>News & stories</p>
