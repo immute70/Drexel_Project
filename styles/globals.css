@@ -402,4 +402,32 @@ header p{
     letter-spacing: 0.4px;
   }
 
+  /* footer */
+
+  .footer h6 {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .footer p {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .footer-below p {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    padding-right: 13px;
+    padding-bottom: 19px;
+  }
+
+  .footer-below p:last-child {
+    padding-bottom: 0;
+  }
+
+  .footer-below img {
+    width: 30px;
+    height: 30px;
+  }
+
 }
