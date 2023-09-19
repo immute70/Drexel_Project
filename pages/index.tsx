@@ -283,14 +283,14 @@ export default function Home() {
             </div>
         </div>
 
-        <div className='container py-36'>
-            <div className='flex flex-row justify-between'>
-                <img src='/images/section-6/sticker1%201.svg'></img>
-                <img src='/images/section-6/sticker2%201.svg'></img>
-                <img src='/images/section-6/sticker3%201.svg'></img>
-                <img src='/images/section-6/sticker4%201.svg'></img>
-                <img src='/images/section-6/sticker5%201.svg'></img>
-                <img src='/images/section-6/sticker6%201.svg'></img>
+        <div className='container py-36 lg:px-7 lg:py-20'>
+            <div className='flex flex-row justify-between lg:flex-wrap '>
+                <img src='/images/section-6/sticker1%201.svg' className='lg:w-20 lg:h-20 lg:mr-10 lg:mb-10'></img>
+                <img src='/images/section-6/sticker2%201.svg' className='lg:w-20 lg:h-20 lg:mr-10 lg:mb-10'></img>
+                <img src='/images/section-6/sticker3%201.svg' className='lg:w-20 lg:h-20 lg:mb-10'></img>
+                <img src='/images/section-6/sticker4%201.svg' className='lg:w-20 lg:h-20 lg:mr-10'></img>
+                <img src='/images/section-6/sticker5%201.svg' className='lg:w-20 lg:h-20 lg:mr-10'></img>
+                <img src='/images/section-6/sticker6%201.svg' className='lg:w-20 lg:h-20'></img>
             </div>
         </div>
     </main>
