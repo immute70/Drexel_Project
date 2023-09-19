@@ -45,8 +45,8 @@ export default function Home() {
               </div>
 
               <div >
-                  <p className='p-view-now'>VIEW NOW</p>
-                  <img src='/images/section-1/Line%201.svg'></img>
+                  <p className='p-view-now border-b-2 border-gray-400 w-fit'>VIEW NOW</p>
+                  {/*<img src='/images/section-1/Line%201.svg'></img>*/}
               </div>
           </div>
           <div className='lg:px-6 lg:pb-14'>
@@ -77,7 +77,7 @@ export default function Home() {
                           <p>LOUNGE CHAIR</p>
                       </div>
                       <div className='pr-12 lg:pr-0'>
-                          <p className='border-b-2 border-black'>ALL</p>
+                          <p className='border-b-2 border-gray-400'>ALL</p>
                           {/*<img src='/images/section-2/Line%202.svg'></img>*/}
                       </div>
                   </div>
@@ -144,22 +144,35 @@ export default function Home() {
           </div>
       </div>
 
-      <div className='container py-20'>
-          <div className='section-3 px-28 py-16 relative'>
+      <div className='container py-20 lg:py-4'>
+          <div className='
+          section-3
+          px-28
+          py-16
+          relative
+          lg:flex
+          lg:items-center
+          lg:flex-row
+          lg:flex-wrap
+          lg:justify-between
+          lg:px-7
+          '>
               <div >
                   <h1>DREXEL</h1>
                   <p className='sec-3-text'>PETS SLEEPING BAG</p>
                   <div>
-                      <p className='p-view-now'>VIEW NOW</p>
-                      <img src='/images/section-1/Line%201.svg'></img>
+                      <p className='p-view-now border-b-2 border-gray-400 w-fit'>VIEW NOW</p>
+                      {/*<img src='/images/section-1/Line%201.svg'></img>*/}
                   </div>
               </div>
-              <div className='sec-3-img flex absolute right-24 items-end'>
+              <div className='sec-3-img flex absolute  right-24 items-end lg:static lg:right-0'>
                   <div>
-                      <img src='/images/section-3/123%201.png' className='pr-20'></img>
+                      <img src='/images/section-3/123%201.png' className='pr-20 lg:hidden'></img>
+                      <img src='/images/section-3/mobile/123%201.png' className='sec-3-img-mobile lg:block'></img>
                   </div>
                   <div>
-                      <img src='/images/section-3/dog%201.png'></img>
+                      <img src='/images/section-3/dog%201.png' className='lg:hidden'></img>
+                      <img src='/images/section-3/mobile/dog%202.png' className='sec-3-img-mobile lg:block'></img>
                   </div>
               </div>
           </div>

@@ -189,6 +189,9 @@ header p{
   z-index: 10;
 }
 
+.sec-3-img-mobile {
+  display: none;
+}
 
 /* Section-5 */
 
@@ -351,6 +354,18 @@ header p{
     font-size: 10px;
     letter-spacing: 0.8px;
 
+  }
+
+  /* section-3 */
+
+  .section-3 h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+
+  .section-3 p {
+    font-size: 12px;
+    letter-spacing: 0.96px;
   }
 
 }
