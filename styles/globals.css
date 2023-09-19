@@ -91,6 +91,10 @@ header p{
   letter-spacing: 3px;
 }
 
+.section-1 h2 {
+  display: none;
+}
+
 .cherner-p {
   color: rgba(47, 47, 56, 0.68);
   font-family: HalisR-Light, sans-serif;
@@ -296,6 +300,35 @@ header p{
   .header-under-mid {
     border-bottom: rgba(169, 169, 169, 0.30) 1px solid;
     border-top: rgba(169, 169, 169, 0.30) 1px solid;
+  }
+
+  /* section-1-mb */
+
+  .section-1 h1 {
+    font-size: 26px;
+    padding-left: 0;
+    letter-spacing: 2.08px;
+  }
+
+  .section-1 span {
+    font-size: 26px;
+    padding-left: 0;
+  }
+
+  .cherner-p {
+    padding-right: 0;
+    font-size: 11px;
+    letter-spacing: 0.88px;
+  }
+
+  .section-1 h2 {
+    display: block;
+    font-family: 'HalisR-Bold', sans-serif;
+    font-size: 26px;
+    color: #2F2F38;
+    line-height: 1.2;
+    padding-left: 18px;
+    letter-spacing: 2.08px;
   }
 
 }

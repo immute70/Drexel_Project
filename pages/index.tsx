@@ -4,10 +4,43 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='container py-9'>
-      <div className='section-1 flex items-center content-center justify-between p-24 lg:my-3'>
-          <div>
-              <div className='pb-20'>
-                  <h1>CHERNER<span>ARMCHAIR</span></h1>
+      <div className='
+      section-1
+      flex
+      items-center
+      content-center
+      justify-between
+      p-24
+      lg:my-3
+      lg:flex-col-reverse
+      lg:items-center
+      lg:justify-center
+      lg:px-7
+      lg:py-16
+      '>
+          <div className='
+          lg:flex
+          lg:flex-col
+          lg:items-center
+          '>
+              <div className='
+              pb-20
+              lg:pb-10
+              lg:flex
+              lg:flex-col
+              lg:items-center
+              '>
+                  <div className='
+                  lg:flex
+                  lg:flex-col
+                  lg:items-center
+
+                  '>
+                      <h1 className=''>CHERNER
+                          <span className='lg:hidden'>ARMCHAIR</span>
+                      </h1>
+                      <h2 className='lg:mr-3 lg:mb-3'>ARMCHAIR</h2>
+                  </div>
                   <p className='cherner-p'>the 1958 moulded plywood armchair by Norman Chester</p>
               </div>
 
@@ -16,7 +49,7 @@ export default function Home() {
                   <img src='/images/section-1/Line%201.svg'></img>
               </div>
           </div>
-          <div>
+          <div className='lg:px-6 lg:pb-14'>
               <img src='/images/section-1/sec1-chair.png'></img>
           </div>
       </div>

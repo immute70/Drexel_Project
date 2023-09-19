@@ -18,50 +18,50 @@ export default function Header() {
                 {showMenu ? <img src='/images/header/close-bar.svg'></img> : <img src='/images/header/bars.svg'></img>}
             </button>
 
-            <div className={`link-header flex flex-col p-9 absolute top-0 right-0 ${showMenu ? `block` : `hidden`}` }>
+            <div className={`link-header flex flex-col p-9 absolute top-0 right-0 transition-all ${showMenu ? `block` : `hidden`}` }>
 
                 <div className='header-top flex justify-between items-center py-5'>
-                    <img src='/images/header/heart-mob.svg' className='cursor-pointer'></img>
-                    <img src='/images/header/cart-mob.svg' className='pl-1 cursor-pointer'></img>
-                    <img src='/images/header/search-mob.svg' className='pl-1 cursor-pointer'></img>
+                    <img src='/images/header/heart-mob.svg' className='cursor-pointer' onClick={() => setShowMenu(!showMenu)}></img>
+                    <img src='/images/header/cart-mob.svg' className='pl-1 cursor-pointer' onClick={() => setShowMenu(!showMenu)}></img>
+                    <img src='/images/header/search-mob.svg' className='pl-1 cursor-pointer' onClick={() => setShowMenu(!showMenu)}></img>
                 </div>
 
                 <div className='pt-14 pb-32'>
                     <div className='flex justify-between pb-6'>
-                        <Link href='#'><p>Home</p></Link>
+                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>Home</p></Link>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
                     <div className='flex justify-between pb-6'>
-                        <Link href='#'><p>Feature</p></Link>
+                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>Feature</p></Link>
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
                     <div className='pb-6'>
-                        <Link href='#'><p>Store</p></Link>
+                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>Store</p></Link>
                     </div>
                     <div>
-                        <Link href='#'><p>About Us</p></Link>
+                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>About Us</p></Link>
                     </div>
                 </div>
 
                 <div className='header-under-mid flex py-5'>
                     <div >
-                        <p className='pr-5 cursor-auto'><Link href={'#'}>LOGIN</Link></p>
+                        <p className='pr-5 cursor-auto'><Link href={'#'} onClick={() => setShowMenu(!showMenu)}>LOGIN</Link></p>
                     </div>
                     <div className='flex pr-5'>
-                        <p className=' cursor-auto'><Link href={'#'}>EN</Link></p>
+                        <p className=' cursor-auto'><Link href={'#'} onClick={() => setShowMenu(!showMenu)}>EN</Link></p>
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
                     <div className='flex '>
-                        <p className=' cursor-auto'><Link href={'#'}>USD</Link></p>
+                        <p className=' cursor-auto'><Link href={'#'} onClick={() => setShowMenu(!showMenu)}>USD</Link></p>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
                 </div>
 
                 <div className='flex justify-between pt-9'>
-                    <img src='/images/header/icons8-twitter%201.svg'></img>
-                    <img src='/images/header/icons8-instagram%201.svg'></img>
-                    <img src='/images/header/icons8-threads%201.svg'></img>
-                    <img src='/images/header/icons8-facebook.svg'></img>
+                    <img src='/images/header/icons8-twitter%201.svg' onClick={() => setShowMenu(!showMenu)}></img>
+                    <img src='/images/header/icons8-instagram%201.svg' onClick={() => setShowMenu(!showMenu)}></img>
+                    <img src='/images/header/icons8-threads%201.svg' onClick={() => setShowMenu(!showMenu)}></img>
+                    <img src='/images/header/icons8-facebook.svg' onClick={() => setShowMenu(!showMenu)}></img>
                 </div>
 
             </div>
