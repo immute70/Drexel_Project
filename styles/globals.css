@@ -225,7 +225,19 @@ header p{
 .section-5 input {
   background-color: #F4F4F4;
   border: 1px solid #D9D9D9;
+  letter-spacing: 0.70px;
+  font-size: 12px;
+
 }
+
+.sec-5-p-mob {
+  display: none;
+}
+
+.sec-5-p-mob p:first-child {
+  padding-bottom: 4px;
+}
+
 
 
 /* Footer */
@@ -366,6 +378,28 @@ header p{
   .section-3 p {
     font-size: 12px;
     letter-spacing: 0.96px;
+  }
+
+  /* section-5 */
+
+  .section-5 h1 {
+    font-size: 20px;
+
+  }
+
+  .section-5 p {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+  }
+
+  .section-5 button {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+  .section-5 input {
+    font-size: 10px;
+    letter-spacing: 0.6px;
   }
 
 }

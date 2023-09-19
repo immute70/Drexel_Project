@@ -265,15 +265,19 @@ export default function Home() {
         </div>
 
         <div className='container landSection'>
-            <div className='section-5 px-64 py-40 flex flex-col items-center'>
+            <div className='section-5 px-64 py-40 flex flex-col items-center lg:px-7 lg:py-16'>
                 <div className='flex flex-col items-center'>
                     <h1>KEEP UPDATED</h1>
-                    <p>SIGN UP FOR OUR NEWLETTER TO RECEIVE ON EXLUSIVE OFFER</p>
+                    <p className='lg:hidden'>SIGN UP FOR OUR NEWLETTER TO RECEIVE ON EXLUSIVE OFFER</p>
+                    <div className='sec-5-p-mob lg:flex lg:flex-col lg:text-center'>
+                        <p>SIGN UP FOR OUR NEWLETTER TO RECEIVE ON</p>
+                        <p>EXLUSIVE OFFER</p>
+                    </div>
                 </div>
                 <div>
                     <div className='flex flex-row items-center'>
-                        <input type='text' placeholder='Enter your email' className='py-4 pl-5 pr-80'></input>
-                        <button className='py-5 px-14'>SUBSCRIBE</button>
+                        <input type='text' placeholder='ENTER YOUR EMAIL' className='py-5 pl-5 pr-80 lg:pr-24 lg:py-4'></input>
+                        <button className='py-5 px-14 lg:py-4 lg:px-6'>SUBSCRIBE</button>
                     </div>
                 </div>
             </div>
