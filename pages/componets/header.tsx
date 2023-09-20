@@ -28,7 +28,7 @@ export default function Header() {
 
                 <div className='pt-14 pb-32'>
                     <div className='flex justify-between pb-6'>
-                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>Home</p></Link>
+                        <Link href='/item' onClick={() => setShowMenu(!showMenu)}><p>Home</p></Link>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
                     <div className='flex justify-between pb-6'>
@@ -36,7 +36,7 @@ export default function Header() {
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
                     <div className='pb-6'>
-                        <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>Store</p></Link>
+                        <Link href="/pages/item" onClick={() => setShowMenu(!showMenu)}><p>Store</p></Link>
                     </div>
                     <div>
                         <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>About Us</p></Link>

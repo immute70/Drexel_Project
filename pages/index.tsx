@@ -88,7 +88,7 @@ export default function Home() {
                   </div>
               </div>
               <div className='flex justify-between lg:flex-wrap'>
-                  <div className='publication-block'>
+                  <div className='publication-block cursor-pointer'>
                       <div className='publication-img relative'>
                           <p className='absolute right-4 top-3'>HOT</p>
                           <img src='/images/section-2/publication/sec2-img1%201.png' className='lg:hidden'></img>

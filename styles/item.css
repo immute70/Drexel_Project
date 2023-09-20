@@ -1,0 +1,257 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'HalisR-Light';
+    src: url('../fonts/Ahmet Altun - HalisR-Light.otf');
+}
+
+@font-face {
+    font-family: 'HalisR-Book';
+    src: url('../fonts/Ahmet Altun - HalisR-Book.otf');
+}
+
+@font-face {
+    font-family: 'HalisR-Medium';
+    src: url('../fonts/Ahmet Altun - HalisR-Medium.otf');
+}
+
+@font-face {
+    font-family: 'HalisR-Regular';
+    src: url('../fonts/Ahmet Altun - HalisR-Regular.otf');
+}
+
+@font-face {
+    font-family: 'HalisR-Bold';
+    src: url('../fonts/Ahmet Altun - HalisR-Bold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'HalisR-Regular', sans-serif;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.landSection {
+    padding: 50px 0;
+}
+
+.sec-1-right {
+    background-color: #F4F4F4;
+}
+
+.sec-1-right h1 {
+    color: #2F2F38;
+    font-family: HalisR-Bold,sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.92px;
+
+}
+
+.sec-1-top {
+    color: rgba(47, 47, 56, 0.70);
+    font-family: HalisR-Book,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.96px;
+    padding-bottom: 5px;
+}
+
+.sec-1-review p {
+    color: #2F2F38;
+    font-family: HalisR-Bold,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.96px;
+    margin-right: 3px;
+}
+
+.sec-1-review span {
+    color: rgba(47, 47, 56, 0.50);
+    font-family: HalisR-Light,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.96px;
+    margin-left: 3px;
+}
+
+.sec-1-desc {
+    color: rgba(47, 47, 56, 0.70);
+    font-family: HalisR-Book,sans-serif;
+    font-size: 14px;
+    margin-bottom: 48px;
+
+}
+
+.sec-1-price {
+    color: #2F2F38;
+    font-family: HalisR-Book,sans-serif;
+    font-size: 14px;
+    margin-bottom: 27px;
+}
+
+.sec-1-button-count button:first-child {
+    border-radius: 2px;
+    border: 1px solid #2F2F38;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sec-1-button-count p {
+    color: #2F2F38;
+    font-size: 14px;
+    font-family: HalisR-Regular,sans-serif;
+}
+
+.sec-1-button-count button:last-child {
+    border-radius: 2px;
+    background: #2F2F38;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sec-1-buttons button:first-child {
+    color: #2F2F38;
+    font-size: 14px;
+    font-family: HalisR-Regular,sans-serif;
+    border-bottom: 1px solid #2F2F38;
+
+}
+
+.sec-1-buttons button:last-child {
+    color: #FFF;
+    font-size: 14px;
+    font-family: HalisR-Regular,sans-serif;
+    background-color: #2F2F38;
+    padding: 8px 37px;
+}
+
+
+/* section-2 */
+
+.section-2-button button {
+    color: #2F2F38;
+    font-family: HalisR-Bold,sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.28px;
+    margin-right: 42px;
+    margin-bottom: 30px;
+}
+
+.section-2-button button:first-child {
+    border-bottom: 2px solid #2F2F38;
+}
+
+.section-2 p {
+    color: #2F2F38;
+    font-family: HalisR-Light,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    margin-bottom: 7px;
+}
+
+/* section-3 */
+
+.section-3-item h1 {
+    color: #2F2F38;
+    font-family: HalisR-Bold,sans-serif;
+    font-size: 24px;
+    margin-bottom: 55px;
+    letter-spacing: 1.92px;
+}
+
+/* adaptive */
+
+@media (max-width: 1024px) {
+
+    .sec-1-img-back img{
+        margin: 30px 0;
+        padding: 7px 14px;
+        background-color: #F4F4F4;
+        border-radius: 15px;
+        filter: drop-shadow(-7px 9px 16px rgba(0, 0, 0, 0.15));
+    }
+
+    .sec-1-img-back img:first-child{
+        margin-right: 9px;
+    }
+
+    .sec-1-top {
+        font-size: 10px;
+        letter-spacing: 0.8px;
+    }
+
+    .sec-1-right h1 {
+        font-size: 18px;
+        letter-spacing: 1.44px;
+    }
+
+    .sec-1-review p {
+        font-size: 12px;
+        letter-spacing: 0.96px;
+    }
+
+    .sec-1-review span {
+        font-size: 10px;
+        letter-spacing: 0.8px;
+    }
+
+    .sec-1-desc {
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* section-2 */
+
+    .section-2-button button {
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        margin-right: 12px;
+        margin-bottom: 19px;
+    }
+
+    .section-2 p {
+
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        margin-bottom: 11px;
+    }
+
+    /* section-3 */
+
+    .section-3-item h1 {
+        font-size: 18px;
+        margin-bottom: 45px;
+        letter-spacing: 1.44px;
+    }
+
+
+}
