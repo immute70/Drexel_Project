@@ -28,7 +28,7 @@ export default function Header() {
 
                 <div className='pt-14 pb-32'>
                     <div className='flex justify-between pb-6'>
-                        <Link href='/item' onClick={() => setShowMenu(!showMenu)}><p>Home</p></Link>
+                        <Link href='/' onClick={() => setShowMenu(!showMenu)}><p>Home</p></Link>
                         <img src='/images/header/chevron-down-mob.svg' ></img>
                     </div>
                     <div className='flex justify-between pb-6'>
@@ -36,7 +36,7 @@ export default function Header() {
                         <img src='/images/header/chevron-down-mob.svg'></img>
                     </div>
                     <div className='pb-6'>
-                        <Link href="/pages/item" onClick={() => setShowMenu(!showMenu)}><p>Store</p></Link>
+                        <Link href="/item" onClick={() => setShowMenu(!showMenu)}><p>Store</p></Link>
                     </div>
                     <div>
                         <Link href='#' onClick={() => setShowMenu(!showMenu)}><p>About Us</p></Link>
@@ -71,7 +71,7 @@ export default function Header() {
         <div className='flex justify-between items-center fixed w-ful z-20 container bg-white py-7 lg:hidden'>
             <div className='flex lg:hidden'>
                 <div className='flex pr-12'>
-                    <Link href='#'><p>Home</p></Link>
+                    <Link href='/'><p>Home</p></Link>
                     <img src='/images/chevron-down.svg' ></img>
                 </div>
                 <div className='flex pr-12'>
@@ -79,7 +79,7 @@ export default function Header() {
                     <img src='/images/chevron-down.svg'></img>
                 </div>
                 <div className='pr-12'>
-                    <Link href='#'><p>Store</p></Link>
+                    <Link href='/item'><p>Store</p></Link>
                 </div>
                 <div>
                     <Link href='#'><p>About Us</p></Link>
