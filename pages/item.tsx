@@ -60,7 +60,7 @@ export default function Item() {
                     </div>
                 </div>
 
-                <div className='section-2 mb-40 lg:px-7 lg:mb-16'>
+                <div className='section-2-item mb-40 lg:px-7 lg:mb-16'>
                     <div className='section-2-button mt-32 lg:mt-20'>
                         <button>DESCRIPTION</button>
                         <button>CUSTOMER REVIEW</button>

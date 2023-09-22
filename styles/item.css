@@ -170,7 +170,7 @@ html {
     border-bottom: 2px solid #2F2F38;
 }
 
-.section-2 p {
+.section-2-item p {
     color: #2F2F38;
     font-family: HalisR-Light,sans-serif;
     font-size: 14px;
@@ -238,7 +238,7 @@ html {
         margin-bottom: 19px;
     }
 
-    .section-2 p {
+    .section-2-item p {
 
         font-size: 10px;
         letter-spacing: 0.8px;
